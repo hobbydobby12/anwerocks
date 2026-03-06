@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Subh Subh bol yaar Subh Subh bol</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="library">
+
+<h1 class="title">HAPPY BIRTHDAY!!!
+  (onlyvalidpersonincollege)</h1>
+
+<div class="desk">
+
+<div class="envelope" onclick="openLetter(1)">
+<div class="wax"></div>
+Letter I
+</div>
+
+<div class="envelope" onclick="openLetter(2)">
+<div class="wax"></div>
+Letter II
+</div>
+
+<div class="envelope" onclick="openLetter(3)">
+<div class="wax"></div>
+Letter III
+</div>
+
+</div>
+
+<!-- Letter popup -->
+
+<div id="letterBox">
+
+<div class="paper">
+
+<p id="letterText">
+Your message goes here...
+</p>
+
+<button onclick="closeLetter()">Close</button>
+
+</div>
+</div>
+
+<audio controls class="music">
+<source src="assets/music/Zakir (Lyrics) - Naalayak  Sahil Samuel (1).mp3" type="audio/mpeg">
+</audio>
+
+<script src="js/script.js"></script>
+
+
+
+<div class="characters">
+
+<img src="assets/charcater1.gif" class="char c1"onclick="showCake()">
+<img src="assets/character12.webp" class="char c2"onclick="showCake()">
+<img src="assets/character11.webp" class="char c3"onclick="showCake()">
+<img src="assets/character4.webp" class="char c4"onclick="showCake()">
+<img src="assets/chacter5.webp" class="char c5"onclick="showCake()">
+<img src="assets/character6.webp" class="char c6"onclick="showCake()">
+<img src="assets/character7.webp" class="char c7"onclick="showCake()">
+<img src="assets/character 8.webp" class="char c8"onclick="showCake()">
+<img src="assets/character9.webp" class="char c9"onclick="showCake()">
+<img src="assets/character15.webp" class="char c10"onclick="showCake()">
+<img src="assets/charcater3.webp" class="char c11"onclick="showCake()">
+<img src="assets/character 2.gif" class="char c12"onclick="showCake()">
+<img src="assets/character13.webp" class="char c13"onclick="showCake()">
+<img src="assets/character14.webp" class="char c14"onclick="showCake()">
+<img src="assets/character10.webp" class="char c15"onclick="showCake()">
+
+</div>
+
+<div id="effects"></div>
+<div class="letter" onclick="letter1Effect()">Letter I</div>
+
+<div class="letter" onclick="letter2Effect()">Letter II</div>
+
+<div class="letter" onclick="letter3Effect()">Letter III</div>
+
+<div id="birthdayScene">
+
+<h1 class="birthdayText">Happy Birthday</h1>
+
+<p class="birthdaySub">
+I'm really glad you exist.<br>
+And I'm sorry for the misunderstanding.<br>
+You mean a lot to me.
+</p>
+
+</div>
+
+<div class="fireflies">
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+  <div class="firefly"></div>
+</div>
+<div id="musicBox" onclick="toggleMusic()">
+🎵
+</div>
+
+<audio id="bgMusic" loop>
+  <source src="assets/music/Howie Day - Collide (Lyrics) (1).mp3" type="audio/mpeg">
+</audio>
+
+<div id="cakeScene">
+
+<div class="cakeBox">
+
+<h2>Happy 18th Birthday 🎂</h2>
+
+<div class="cake">
+<div class="candle flame"></div>
+<div class="candle flame"></div>
+<div class="candle flame"></div>
+</div>
+
+<button id="blowBtn" onclick="blowCandles()">Blow the candles</button>
+
+<button id="wishBtn" onclick="makeWish()" style="display:none;">
+Make a wish ✨
+</button>
+
+</div>
+
+</div>
+<img src="assets/character11.webp" class="char c3" onclick="showCake()">
+
+<div id="cakeScene" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:black; color:white; justify-content:center; align-items:center;">
+
+<h1>🎂 Happy 18th Birthday 🎂</h1>
+
+</div>
+
+
+
+</body>
+</html>
